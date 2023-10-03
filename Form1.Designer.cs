@@ -121,7 +121,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // numericUpDown1
             // 
@@ -149,7 +148,6 @@
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             pictureBox2.Visible = false;
-            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox3
             // 
@@ -159,7 +157,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 4;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
@@ -169,7 +166,6 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 5;
             pictureBox4.TabStop = false;
-            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox5
             // 
@@ -179,7 +175,6 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 6;
             pictureBox5.TabStop = false;
-            pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox6
             // 
@@ -189,7 +184,6 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 7;
             pictureBox6.TabStop = false;
-            pictureBox6.Click += pictureBox6_Click;
             // 
             // pictureBox7
             // 
@@ -199,7 +193,6 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 8;
             pictureBox7.TabStop = false;
-            pictureBox7.Click += pictureBox7_Click;
             // 
             // pictureBox8
             // 
@@ -209,7 +202,6 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 9;
             pictureBox8.TabStop = false;
-            pictureBox8.Click += pictureBox8_Click;
             // 
             // pictureBox9
             // 
@@ -219,7 +211,6 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 10;
             pictureBox9.TabStop = false;
-            pictureBox9.Click += pictureBox9_Click;
             // 
             // pictureBox10
             // 
@@ -229,7 +220,6 @@
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 11;
             pictureBox10.TabStop = false;
-            pictureBox10.Click += pictureBox10_Click;
             // 
             // pictureBox11
             // 
@@ -239,7 +229,6 @@
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 12;
             pictureBox11.TabStop = false;
-            pictureBox11.Click += pictureBox11_Click;
             // 
             // pictureBox12
             // 
@@ -249,7 +238,6 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 13;
             pictureBox12.TabStop = false;
-            pictureBox12.Click += pictureBox12_Click;
             // 
             // pictureBox13
             // 
@@ -259,7 +247,6 @@
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 14;
             pictureBox13.TabStop = false;
-            pictureBox13.Click += pictureBox13_Click;
             // 
             // pictureBox14
             // 
@@ -269,7 +256,6 @@
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 15;
             pictureBox14.TabStop = false;
-            pictureBox14.Click += pictureBox14_Click;
             // 
             // pictureBox15
             // 
@@ -279,7 +265,6 @@
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox15.TabIndex = 16;
             pictureBox15.TabStop = false;
-            pictureBox15.Click += pictureBox15_Click;
             // 
             // pictureBox16
             // 
@@ -289,7 +274,6 @@
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox16.TabIndex = 17;
             pictureBox16.TabStop = false;
-            pictureBox16.Click += pictureBox16_Click;
             // 
             // pictureBox17
             // 
@@ -299,7 +283,6 @@
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox17.TabIndex = 18;
             pictureBox17.TabStop = false;
-            pictureBox17.Click += pictureBox17_Click;
             // 
             // pictureBox18
             // 
@@ -309,7 +292,6 @@
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox18.TabIndex = 19;
             pictureBox18.TabStop = false;
-            pictureBox18.Click += pictureBox18_Click;
             // 
             // pictureBox19
             // 
@@ -319,7 +301,6 @@
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox19.TabIndex = 20;
             pictureBox19.TabStop = false;
-            pictureBox19.Click += pictureBox19_Click;
             // 
             // pictureBox20
             // 
@@ -329,7 +310,6 @@
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox20.TabIndex = 21;
             pictureBox20.TabStop = false;
-            pictureBox20.Click += pictureBox20_Click;
             // 
             // pictureBox21
             // 
@@ -339,7 +319,6 @@
             pictureBox21.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox21.TabIndex = 22;
             pictureBox21.TabStop = false;
-            pictureBox21.Click += pictureBox21_Click;
             // 
             // pictureBox22
             // 
@@ -349,7 +328,6 @@
             pictureBox22.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox22.TabIndex = 23;
             pictureBox22.TabStop = false;
-            pictureBox22.Click += pictureBox22_Click;
             // 
             // pictureBox23
             // 
@@ -359,7 +337,6 @@
             pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox23.TabIndex = 24;
             pictureBox23.TabStop = false;
-            pictureBox23.Click += pictureBox23_Click;
             // 
             // pictureBox24
             // 
@@ -369,7 +346,6 @@
             pictureBox24.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox24.TabIndex = 25;
             pictureBox24.TabStop = false;
-            pictureBox24.Click += pictureBox24_Click;
             // 
             // pictureBox25
             // 
@@ -379,7 +355,6 @@
             pictureBox25.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox25.TabIndex = 26;
             pictureBox25.TabStop = false;
-            pictureBox25.Click += pictureBox25_Click;
             // 
             // pictureBox26
             // 
@@ -389,7 +364,6 @@
             pictureBox26.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox26.TabIndex = 27;
             pictureBox26.TabStop = false;
-            pictureBox26.Click += pictureBox26_Click;
             // 
             // pictureBox27
             // 
@@ -399,7 +373,6 @@
             pictureBox27.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox27.TabIndex = 28;
             pictureBox27.TabStop = false;
-            pictureBox27.Click += pictureBox27_Click;
             // 
             // pictureBox28
             // 
@@ -409,7 +382,6 @@
             pictureBox28.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox28.TabIndex = 29;
             pictureBox28.TabStop = false;
-            pictureBox28.Click += pictureBox28_Click;
             // 
             // pictureBox29
             // 
@@ -419,7 +391,6 @@
             pictureBox29.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox29.TabIndex = 30;
             pictureBox29.TabStop = false;
-            pictureBox29.Click += pictureBox29_Click;
             // 
             // pictureBox30
             // 
@@ -429,7 +400,6 @@
             pictureBox30.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox30.TabIndex = 31;
             pictureBox30.TabStop = false;
-            pictureBox30.Click += pictureBox30_Click;
             // 
             // pictureBox31
             // 
@@ -439,7 +409,6 @@
             pictureBox31.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox31.TabIndex = 32;
             pictureBox31.TabStop = false;
-            pictureBox31.Click += pictureBox31_Click;
             // 
             // pictureBox32
             // 
@@ -449,7 +418,6 @@
             pictureBox32.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox32.TabIndex = 33;
             pictureBox32.TabStop = false;
-            pictureBox32.Click += pictureBox32_Click;
             // 
             // pictureBox33
             // 
@@ -459,7 +427,6 @@
             pictureBox33.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox33.TabIndex = 34;
             pictureBox33.TabStop = false;
-            pictureBox33.Click += pictureBox33_Click;
             // 
             // pictureBox34
             // 
@@ -469,7 +436,6 @@
             pictureBox34.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox34.TabIndex = 35;
             pictureBox34.TabStop = false;
-            pictureBox34.Click += pictureBox34_Click;
             // 
             // pictureBox35
             // 
@@ -479,7 +445,6 @@
             pictureBox35.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox35.TabIndex = 36;
             pictureBox35.TabStop = false;
-            pictureBox35.Click += pictureBox35_Click;
             // 
             // pictureBox36
             // 
@@ -489,7 +454,6 @@
             pictureBox36.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox36.TabIndex = 37;
             pictureBox36.TabStop = false;
-            pictureBox36.Click += pictureBox36_Click;
             // 
             // pictureBox37
             // 
@@ -499,7 +463,6 @@
             pictureBox37.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox37.TabIndex = 38;
             pictureBox37.TabStop = false;
-            pictureBox37.Click += pictureBox37_Click;
             // 
             // pictureBox38
             // 
@@ -509,7 +472,6 @@
             pictureBox38.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox38.TabIndex = 39;
             pictureBox38.TabStop = false;
-            pictureBox38.Click += pictureBox38_Click;
             // 
             // pictureBox39
             // 
@@ -519,7 +481,6 @@
             pictureBox39.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox39.TabIndex = 40;
             pictureBox39.TabStop = false;
-            pictureBox39.Click += pictureBox39_Click;
             // 
             // pictureBox40
             // 
@@ -529,7 +490,6 @@
             pictureBox40.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox40.TabIndex = 41;
             pictureBox40.TabStop = false;
-            pictureBox40.Click += pictureBox40_Click;
             // 
             // Form1
             // 
