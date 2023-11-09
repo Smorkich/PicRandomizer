@@ -4,43 +4,39 @@ namespace Picture2
 {
     public partial class Form1 : Form
     {
-        Color someColor;
-        BackGroundColors bC = new BackGroundColors();
         public Form1()
         {
             InitializeComponent();
             numericUpDown1.Maximum = 40;
             numericUpDown1.Minimum = 1;
 
-            for (int i = 2; i <= 40; i++)
+            foreach (PictureBox pb in Controls.OfType<PictureBox>())
             {
-                (Controls["pictureBox" + i] as PictureBox).Visible = false;
+                pb.Visible = false;
             }
-            for (int i = 1; i <= 40; i++)
+
+            foreach (PictureBox pb in Controls.OfType<PictureBox>())
             {
-                (Controls["pictureBox" + i] as PictureBox).Click += new EventHandler(MyButtonClick);
+                pb.Click += (s, e) =>
+                {
+                    ((PictureBox)s).Image = ImagesPath.GetImage();                 
+                    ((PictureBox)s).BackColor = BackGroundColors.BackColors[SetColor()];
+                };
             }
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            for (int k = 2; k <= numericUpDown1.Value; k++)
+            for (int k = 1; k <= numericUpDown1.Value; k++)
                 (Controls["pictureBox" + k] as PictureBox).Visible = true;
 
             for (int j = 40; j > numericUpDown1.Value; j--)
                 (Controls["pictureBox" + j] as PictureBox).Visible = false;
 
-            for (int c = 1; c <= 40; c++)
+            foreach (PictureBox pb in Controls.OfType<PictureBox>())
             {
-                if (ImagesPath.fn.Length > 0) (Controls["pictureBox" + c] as PictureBox).Image = ImagesPath.GetImage();
-                someColor = BackGroundColors.BackColors[SetColor()];
-                (Controls["pictureBox" + c] as PictureBox).BackColor = someColor;
+                if (ImagesPath.fn.Length > 0) pb.Image = ImagesPath.GetImage();
+                    pb.BackColor = BackGroundColors.BackColors[SetColor()];
             }
-        }
-        private void MyButtonClick(object sender, EventArgs e)
-        {
-            ((PictureBox)sender).Image = ImagesPath.GetImage();
-            Color someColor = BackGroundColors.BackColors[SetColor()];
-            ((PictureBox)sender).BackColor = someColor;
         }
     }
 }

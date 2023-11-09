@@ -1,44 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Picture2
+﻿namespace Picture2
 {
-    public class BackGroundColors
+    public static class BackGroundColors
     {
-        public static Dictionary<BackColor, Color> BackColors = new Dictionary<BackColor, Color>();
-        public BackGroundColors() 
+        public static Dictionary<BackColor, Color> BackColors = new Dictionary<BackColor, Color>()
         {
-            BackColors.Add(BackColor.Aquamarine, Color.Aquamarine);
-            BackColors.Add(BackColor.Azure, Color.Azure);
-            BackColors.Add(BackColor.burlywood, Color.BurlyWood);
-            BackColors.Add(BackColor.cadetblue,Color.CadetBlue);
-            BackColors.Add(BackColor.gainsboro, Color.Gainsboro);
-            BackColors.Add(BackColor.gold, Color.Gold);
-            BackColors.Add(BackColor.khaki, Color.Khaki);
-            BackColors.Add(BackColor.lawngreen, Color.LawnGreen);
-            BackColors.Add(BackColor.lightgreen, Color.LightGreen);
-            BackColors.Add(BackColor.lightskyblue, Color.LightSkyBlue);
-            BackColors.Add(BackColor.linen, Color.Linen);
-            BackColors.Add(BackColor.mediumorchid, Color.MediumOrchid);
-            BackColors.Add(BackColor.mediumpurple, Color.MediumPurple);
-            BackColors.Add(BackColor.mistyrose, Color.MistyRose);
-            BackColors.Add(BackColor.olive, Color.Olive);
-            BackColors.Add(BackColor.olivedrab,Color.OliveDrab);
-            BackColors.Add(BackColor.orange, Color.Orange);
-            BackColors.Add(BackColor.orangered, Color.OrangeRed);
-            BackColors.Add(BackColor.orchid, Color.Orchid);
-            BackColors.Add(BackColor.paleturquoise, Color.PaleTurquoise);
-            BackColors.Add(BackColor.peru, Color.Peru);
-            BackColors.Add(BackColor.pink, Color.Pink);
-            BackColors.Add(BackColor.plum, Color.Plum);
-            BackColors.Add(BackColor.royalblue, Color.RoyalBlue);
-            BackColors.Add(BackColor.sandybrown, Color.SandyBrown);
-            BackColors.Add(BackColor.seagreen, Color.SeaGreen);
-            BackColors.Add(BackColor.steelblue,Color.SteelBlue);
-        }
+            { BackColor.Aquamarine, Color.Aquamarine },
+            { BackColor.Azure, Color.Azure},
+            {BackColor.burlywood, Color.BurlyWood},
+            { BackColor.cadetblue, Color.CadetBlue },
+            { BackColor.gainsboro, Color.Gainsboro },
+            { BackColor.gold, Color.Gold },
+            { BackColor.khaki, Color.Khaki },
+            { BackColor.lawngreen, Color.LawnGreen },
+            { BackColor.lightgreen, Color.LightGreen },
+            { BackColor.lightskyblue, Color.LightSkyBlue },
+            { BackColor.linen, Color.Linen },
+            { BackColor.mediumorchid, Color.MediumOrchid },
+            { BackColor.mediumpurple, Color.MediumPurple },
+            { BackColor.mistyrose, Color.MistyRose },
+            { BackColor.olive, Color.Olive },
+            { BackColor.olivedrab, Color.OliveDrab },
+            { BackColor.orange, Color.Orange },
+            { BackColor.orangered, Color.OrangeRed },
+            { BackColor.orchid, Color.Orchid },
+            { BackColor.paleturquoise, Color.PaleTurquoise },
+            { BackColor.peru, Color.Peru },
+            { BackColor.pink, Color.Pink },
+            { BackColor.plum, Color.Plum },
+            { BackColor.royalblue, Color.RoyalBlue },
+            { BackColor.sandybrown, Color.SandyBrown },
+            { BackColor.seagreen, Color.SeaGreen },
+            { BackColor.steelblue, Color.SteelBlue }
+        };
         public enum BackColor
         {
             Aquamarine,
